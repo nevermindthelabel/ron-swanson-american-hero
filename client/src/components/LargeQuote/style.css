@@ -2,6 +2,18 @@ h1.limeText {
   color: lime;
 }
 
+.align {
+  display: flex;
+}
+
+.form-group {
+  margin: 10px 5px 0 5px;
+}
+
+.form-control {
+  margin: auto;
+}
+
 #LargeQuoteRating {
   display: flex;
   max-width: 10%;

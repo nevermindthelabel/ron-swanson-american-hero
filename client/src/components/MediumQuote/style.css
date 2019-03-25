@@ -1,3 +1,7 @@
 h1.orangeText {
   color: orange;
 }
+
+#MediumQuoteRating {
+  max-width: 15%;
+}

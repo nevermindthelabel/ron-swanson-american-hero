@@ -5,3 +5,19 @@ h1.whiteText {
 .ShortQuote {
   padding-top: 15%;
 }
+
+.align {
+  display: flex;
+}
+
+.form-group {
+  margin: 10px 5px 0 5px;
+}
+
+.form-control {
+  margin: auto;
+}
+
+#ShortQuoteRating {
+  max-width: 15%;
+}
