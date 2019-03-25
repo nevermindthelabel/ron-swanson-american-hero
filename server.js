@@ -1,6 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const Quote = require('./models/quotes')
+const Quote = require('./models/quotes');
 const app = express();
 
 const PORT = process.env.PORT || 3001;
@@ -16,10 +16,6 @@ app.use(
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static('client/build'));
 }
-
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
-});
 
 // Routes
 app.get('/api/quotes', (req, res) => {
