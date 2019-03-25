@@ -1,0 +1,21 @@
+body {
+  margin-bottom: -50px;
+}
+
+#root {
+  display: flex;
+  position: relative;
+  min-height: 100vh;
+  background-image: url("https://cdn-images-1.medium.com/max/1200/0*rS2RVUK6WBTkmaeO.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button {
+  margin: 10px 0px 10px 20px;
+}
+
+h1 {
+  margin-left: 5%;
+}
