@@ -1,0 +1,8 @@
+h1.limeText {
+  color: lime;
+}
+
+#LargeQuoteRating {
+  display: flex;
+  max-width: 10%;
+}
