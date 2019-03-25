@@ -8,7 +8,7 @@ export default class MediumQuote extends Component {
   };
 
   getQuote = () => {
-    axios.get("http://ron-swanson-quotes.herokuapp.com/v2/quotes").then((req, next ) => {
+    axios.get("https://ron-swanson-quotes.herokuapp.com/v2/quotes").then((req, next ) => {
       let numWords = req.data[0].split(" ").filter(a => a.trim().length > 0)
         .length;
       console.log(numWords);
