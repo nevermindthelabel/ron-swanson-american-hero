@@ -71,3 +71,10 @@ export default class MediumQuote extends Component {
     );
   }
 }
+
+/*
+TODO
+get the value of the submitted quote and rating from state to the database.
+loop over the total of votes and divide by the length of the array to get the average.
+do a get request from the database to display the average quote rating along with the quote.
+*/
